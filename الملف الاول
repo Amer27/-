@@ -1,13 +1,37 @@
-# نقيلي 🎯
-**تطبيق مقارنة الأسعار الذكي**
+name: na2eely
+description: تطبيق مقارنة الأسعار الذكي - نقيلي
 
-## المميزات:
-- 🔍 بحث ذكي في كل المتاجر
-- 📊 مقارنة أسعار لحظية
-- 🤖 مساعد توفير ذكي
-- 📸 بحث بالصورة
+publish_to: 'none'
 
-## طريقة التشغيل:
-```dart
-flutter pub get
-flutter run
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  image_picker: ^0.8.7
+  provider: ^6.0.5
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+إضافة ملف الإعدادات pubspec.yaml

@@ -34,4 +34,4 @@ flutter:
         - asset: assets/fonts/Tajawal-Regular.ttf
         - asset: assets/fonts/Tajawal-Bold.ttf
           weight: 700
-إضافة ملف الإعدادات pubspec.yaml
+إضافة ملف الإعدادات pubspec.yam
